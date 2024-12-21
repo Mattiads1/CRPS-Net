@@ -2,7 +2,7 @@
 CRPS-Net: A Novel Framework for AI-assisted Meteo-Marine Ensemble Forecasting
 
 - The 'requirements.txt' file contains all the python libraries needed to use our loss function. 
-  Versions shown refer to the date of release: 21/12/24.
+  Versions shown refer to the date of release: December 21, 2024.
   All those libraries can be free accessed via 'pip'
 
 - The 'CRPSLoss.py' file contains the loss function, which is implemtend as subclass loss of tensorflow. 
