@@ -1,5 +1,5 @@
 # CRPS-Net
-CRPS-Net: A Novel Framework for AI-assisted Meteo-Marine Ensemble Forecasting
+Cavaiola, Mattia and Lagomarsino-Oneto, Daniele and Mazzino, Andrea, Crps-Net: A Novel  Framework for Ai-Assisted Meteo-Marine Ensemble Forecasting. Available at SSRN: https://ssrn.com/abstract=5081601 or http://dx.doi.org/10.2139/ssrn.5081601
 
 - The 'requirements.txt' file contains all the python libraries needed to use our loss function. 
   Versions shown refer to the date of release: December 21, 2024.
@@ -11,4 +11,4 @@ CRPS-Net: A Novel Framework for AI-assisted Meteo-Marine Ensemble Forecasting
 - The 'loss_usage_pseudo_code.py' file shows an expample of usage in order to run your own CRPSNet.
 
 - The nn.py file contains two example of neural networks that has been used in 'CRPS-Net: A Novel Framework for AI-assisted Meteo-Marine 
-  Ensemble Forecasting', by Mattia Cavaiola, Daniele Lagomarsino-Oneto and Andrea Mazzino.
+  Ensemble Forecasting'.
