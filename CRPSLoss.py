@@ -33,7 +33,7 @@ class CRPSLoss(tf.keras.losses.Loss):
             crps2 = tf.zeros_like(crps1)  
             M = tf.shape(y_pred)[-1]
             for i in range(M):
-                crps2 +=  tf.math.reduce_sum((tf.math.abs(tf.expand_dims(y_pred[:,i],-1) - y_pred)),axis=-1)
+                crps2 +=  tf.math.reduce_sum((tf.math.abs(tf.expand_dims(y_pred[...,i],-1) - y_pred)),axis=-1)
                 
             M = tf.cast(M,tf.float32)
             crps_loss = crps1 - 1/(2*M**2)*crps2
